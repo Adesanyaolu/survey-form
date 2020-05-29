@@ -1,0 +1,84 @@
+body {  font-weight: bold; 
+        box-sizing: border-box;
+        font-size: 12px;      
+        background-color: #557c3e;
+        font-family: 'Lora', sans-serif;
+        height: 100%;
+        display: flex; 
+        position: relative;
+      }
+    #main {   
+                  margin: auto;
+                  width: 50%;
+                  text-align: center;
+                  justify-content: center;
+    }  
+    #title {  display: flex; 
+              align-content: center;
+              justify-content: center;
+              color: ; 
+              font: sans-serif;
+            }
+    #description {  text-align: center; 
+                    align-content: center;
+                    color: ;
+                  }
+    .form-group { background-image:linear-gradient(to right, #333 10%, #3dff36 100%);
+                  margin: auto;
+                  width: 100%;
+                  text-align: center;
+                  justify-content: center;
+                  padding-top: 30px;
+                  padding-bottom: 5px;
+                }
+    .form-check {
+      text-align:left;
+      padding-left: 30%;
+    }
+
+    /* styling text areas **/
+    textarea {
+      width: 50%;
+      height: 150px;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid green;
+      border-radius: 4px;
+    }
+    select {
+      width: 30%;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid green;
+      border-radius: 4px;
+    }
+    input[type=number] {
+      width: 30%;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid green;
+      border-radius: 4px;
+    }
+    input[type=text] {
+      width: 30%;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid green;
+      border-radius: 4px;
+    }
+
+    input[type=email] {
+      width: 30%;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid green;
+      border-radius: 4px;
+    }
+
+    input[type=submit] {
+      cursor: pointer;
+      box-sizing: border-box;
+      border: 2px solid green;
+      border-radius: 4px;
+
+    }
